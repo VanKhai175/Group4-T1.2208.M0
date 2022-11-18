@@ -1,0 +1,37 @@
+@media(max-width: 420px) {
+   .solvestress{
+        width: 380px;
+   }
+   
+}
+@media(min-width: 600px) {
+    .solvestress{
+         width: 600px;
+    }
+    
+ }   
+ @media(min-width: 768px) {
+    .solvestress{
+         width: 700px;
+    }
+    
+ }   
+ @media(min-width: 1024px) {
+    .solvestress{
+         width: 900px;
+    }
+    
+ }   
+ @media(min-width: 1200px) {
+    .solvestress{
+         width: 1100px;
+    }
+    
+ }   
+ @media(max-width: 500px) {
+    .solvestress{
+         width: 420px;
+    }
+    
+ }   
+  

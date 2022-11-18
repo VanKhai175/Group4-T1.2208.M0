@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design - Unitop.vn</title>
+</head>
+<body>
+    <style>
+        body{
+            font-size: 16px;
+        }
+        #wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        #header,
+        #footer {
+            background: brown;
+            padding: 10px;
+            text-align: center;
+            color: yellow;
+        }
+        #wp-content {
+            display: flex;
+            
+        }
+        #content,
+        #sidebar {
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #content {
+            flex-basis: 100%;
+            background: rgb(240, 239, 239);
+        }
+        #sidebar {
+            flex-basis: 100%;
+            color: #fff;
+        }
+        #wp-content {
+            background: black;
+        }
+        /* // Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {
+            #content {
+                flex-basis: 70%;
+            }
+            #sidebar {
+                flex-basis: 30%;
+            }
+        }
+        /* // Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            
+        }
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {}
+        /* // Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {}
+    </style>
+    
+    <div id="wrapper">
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+        <div id="wp-content">
+            <div id="content">
+              <h1>“Happiness is not the<br>
+                absence of problems, it’s the
+                 ability to deal with them.” </h1>
+             <h4>-Steve Maraboli-</h4>
+             <h3>Let us solve your problem</h3>
+             <br>
+            </div>
+            <div id="sidebar">
+                <h2>Sidebar</h2>
+                <img src="Image/Problem/hinh2.png" >
+            </div>
+        </div>
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>
